@@ -27,6 +27,8 @@
     "sass-loader": "^4.1.1",
     "storyshots": "^3.2.0",
     "style-loader": "^0.13.1",
+    "stylelint": "^7.7.1",
+    "stylelint-config-sass-guidelines": "^1.1.1",
     "terra-legacy-theme": "^0.1.0",
     "webpack": "^1.14.0",
     "webpack-dev-server": "^1.16.2"
@@ -36,16 +38,18 @@
     "react-dom": "^15.4.2"
   },
   "scripts": {
+    "build": "babel src --out-dir lib",
+    "lint": "yarn lint-js && yarn lint-scss",
+    "lint-js": "eslint --ext .js,.jsx src",
+    "lint-scss": "stylelint src/**/*.scss",
+    "release:major": "yarn version major -m \"Released version %s\" && yarn publish && git push --follow-tags",
+    "release:minor": "yarn version minor -m \"Released version %s\" && yarn publish && git push --follow-tags",
+    "release:patch": "yarn version patch -m \"Released version %s\" && yarn publish && git push --follow-tags",
+    "site": "build-storybook",
     "start": "start-storybook -p 6006",
-    "build": "babel src",
-    "lint": "eslint --ext .js,.jsx src",
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage",
-    "build-storybook": "build-storybook",
-    "release:major": "npm version major -m \"Released version %s\" && npm publish && git push --follow-tags",
-    "release:minor": "npm version minor -m \"Released version %s\" && npm publish && git push --follow-tags",
-    "release:patch": "npm version patch -m \"Released version %s\" && npm publish && git push --follow-tags"
+    "test:coverage": "jest --coverage"
   },
   "jest": {
     "setupFiles": [
