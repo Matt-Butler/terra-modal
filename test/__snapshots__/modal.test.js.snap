@@ -1,3 +1,12 @@
+exports[`Storyshots Modal With default props 1`] = `
+<h1
+  className="terra-Modal">
+  Hello from 
+  a Stranger
+  !
+</h1>
+`;
+
 exports[`Storyshots Modal With phrase L5 1`] = `
 <h1
   className="terra-Modal">
