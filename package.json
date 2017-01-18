@@ -53,6 +53,9 @@
     ],
     "snapshotSerializers": [
       "<rootDir>/node_modules/enzyme-to-json/serializer"
-    ]
+    ],
+    "moduleNameMapper": {
+      "\\.(css|scss)$": "<rootDir>/test/__mocks__/style_mock.js"
+    }
   }
 }
