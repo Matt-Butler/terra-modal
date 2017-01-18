@@ -1,0 +1,24 @@
+exports[`test should mount my modal 1`] = `
+<Modal
+  phrase="Jest">
+  <h1>
+    Hello from 
+    Jest
+    !
+  </h1>
+</Modal>
+`;
+
+exports[`test should render my modal 1`] = `
+<h1>
+  Hello from Jest!
+</h1>
+`;
+
+exports[`test should shallow my modal 1`] = `
+<h1>
+  Hello from 
+  Jest
+  !
+</h1>
+`;
