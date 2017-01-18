@@ -1,4 +1,5 @@
 const autoprefixer = require('autoprefixer');
+const path = require('path');
 
 module.exports = {
   module: {
@@ -8,6 +9,9 @@ module.exports = {
         loader: 'style!css!postcss!sass',
       },
     ],
+  },
+  sassLoader: {
+    data: `@import "${path.resolve('node_modules/terra-legacy-theme/src/terra-legacy-theme.scss')}";`,
   },
   postcss: [
     autoprefixer({

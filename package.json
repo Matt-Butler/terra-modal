@@ -25,7 +25,9 @@
     "postcss-loader": "^1.2.2",
     "react-addons-test-utils": "^15.4.2",
     "sass-loader": "^4.1.1",
+    "storyshots": "^3.2.0",
     "style-loader": "^0.13.1",
+    "terra-legacy-theme": "^0.1.0",
     "webpack": "^1.14.0",
     "webpack-dev-server": "^1.16.2"
   },
@@ -34,6 +36,7 @@
     "react-dom": "^15.4.2"
   },
   "scripts": {
+    "test-storybook": "storyshots",
     "build": "babel src",
     "lint": "eslint --ext .js,.jsx src",
     "test": "jest",
