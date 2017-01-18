@@ -4,6 +4,7 @@
   "repository": "git@github.cerner.com:MB034780/terra-modal.git",
   "author": "Matt W Butler <matt.w.butler@cerner.com>",
   "license": "MIT",
+  "homepage": "https://pages.github.cerner.com/MB034780/terra-modal/",
   "devDependencies": {
     "@kadira/storybook": "^2.21.0",
     "autoprefixer": "^6.6.1",
@@ -19,7 +20,7 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^3.0.2",
     "eslint-plugin-react": "^6.9.0",
-    "extract-text-webpack-plugin": "^1.0.1",
+    "gh-pages": "^0.12.0",
     "jest": "^18.1.0",
     "node-sass": "^4.3.0",
     "postcss-loader": "^1.2.2",
@@ -39,6 +40,7 @@
   },
   "scripts": {
     "build": "babel src --out-dir lib",
+    "deploy": "yarn site && gh-pages -d storybook-static",
     "lint": "yarn lint-js && yarn lint-scss",
     "lint-js": "eslint --ext .js,.jsx src",
     "lint-scss": "stylelint src/**/*.scss",
@@ -46,7 +48,7 @@
     "release:minor": "yarn version minor -m \"Released version %s\" && yarn publish && git push --follow-tags",
     "release:patch": "yarn version patch -m \"Released version %s\" && yarn publish && git push --follow-tags",
     "site": "build-storybook",
-    "start": "start-storybook -p 6006",
+    "start": "start-storybook -p 8080",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage"
