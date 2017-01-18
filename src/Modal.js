@@ -1,10 +1,15 @@
-import React, { Component, PropTypes } from 'react';
-// import '../src/Modal.scss';
+import React from 'react';
+import '../src/Modal.scss';
 
-class Modal extends Component {
-  render() {
-    return <h1 className="terra-Modal">Hello from {this.props.phrase}!</h1>;
-  }
-}
+const Modal = props => <h1 className="terra-Modal">Hello from {props.phrase}!</h1>;
+
+Modal.propTypes = {
+  phrase: React.PropTypes.string.isRequired,
+};
+
+Modal.defaultProps = {
+  phrase: 'a Stranger',
+};
 
 export default Modal;
+
