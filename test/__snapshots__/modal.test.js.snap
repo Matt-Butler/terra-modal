@@ -1,7 +1,26 @@
+exports[`Storyshots Modal With phrase L5 1`] = `
+<h1
+  className="terra-Modal">
+  Hello from 
+  L5
+  !
+</h1>
+`;
+
+exports[`Storyshots Modal With phrase Matt 1`] = `
+<h1
+  className="terra-Modal">
+  Hello from 
+  Matt
+  !
+</h1>
+`;
+
 exports[`test should mount my modal 1`] = `
 <Modal
   phrase="Jest">
-  <h1>
+  <h1
+    className="terra-Modal">
     Hello from 
     Jest
     !
@@ -10,13 +29,15 @@ exports[`test should mount my modal 1`] = `
 `;
 
 exports[`test should render my modal 1`] = `
-<h1>
+<h1
+  class="terra-Modal">
   Hello from Jest!
 </h1>
 `;
 
 exports[`test should shallow my modal 1`] = `
-<h1>
+<h1
+  className="terra-Modal">
   Hello from 
   Jest
   !

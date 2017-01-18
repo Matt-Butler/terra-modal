@@ -1,5 +1,9 @@
 import React from 'react';
+import initStoryshots from 'storyshots';
 import Modal from '../src/modal.js';
+
+// Run snapshot tests for react-storybook
+initStoryshots();
 
 it('should shallow my modal', () => {
     const wrapper = shallow(

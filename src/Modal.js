@@ -1,5 +1,5 @@
 import React, { Component, PropTypes } from 'react';
-import './Modal.scss';
+// import '../src/Modal.scss';
 
 class Modal extends Component {
   render() {
