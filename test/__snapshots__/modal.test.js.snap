@@ -1,26 +1,82 @@
-exports[`Storyshots Modal With default props 1`] = `
+exports[`Storyshots Modal Context Positive 1`] = `
 <h1
-  className="terra-Modal">
+  className="terra-Modal terra-Modal--negative">
   Hello from 
   a Stranger
   !
 </h1>
 `;
 
-exports[`Storyshots Modal With phrase L5 1`] = `
+exports[`Storyshots Modal Context Primary 1`] = `
 <h1
-  className="terra-Modal">
+  className="terra-Modal terra-Modal--primary">
+  Hello from 
+  a Stranger
+  !
+</h1>
+`;
+
+exports[`Storyshots Modal Context Secondary 1`] = `
+<h1
+  className="terra-Modal terra-Modal--secondary">
+  Hello from 
+  a Stranger
+  !
+</h1>
+`;
+
+exports[`Storyshots Modal Phrase With default props 1`] = `
+<h1
+  className="terra-Modal terra-Modal--primary">
+  Hello from 
+  a Stranger
+  !
+</h1>
+`;
+
+exports[`Storyshots Modal Phrase With phrase L5 1`] = `
+<h1
+  className="terra-Modal terra-Modal--primary">
   Hello from 
   L5
   !
 </h1>
 `;
 
-exports[`Storyshots Modal With phrase Matt 1`] = `
+exports[`Storyshots Modal Phrase With phrase Matt 1`] = `
 <h1
-  className="terra-Modal">
+  className="terra-Modal terra-Modal--primary">
   Hello from 
   Matt
+  !
+</h1>
+`;
+
+exports[`test should mount my modal 1`] = `
+<Modal
+  className="terra-Modal--primary"
+  phrase="Jest">
+  <h1
+    className="terra-Modal terra-Modal--primary">
+    Hello from 
+    Jest
+    !
+  </h1>
+</Modal>
+`;
+
+exports[`test should render my modal 1`] = `
+<h1
+  class="terra-Modal terra-Modal--primary">
+  Hello from Jest!
+</h1>
+`;
+
+exports[`test should shallow my modal 1`] = `
+<h1
+  className="terra-Modal terra-Modal--primary">
+  Hello from 
+  Jest
   !
 </h1>
 `;
