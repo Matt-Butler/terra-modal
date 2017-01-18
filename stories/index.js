@@ -4,6 +4,9 @@ import Modal from '../src/Modal';
 
 
 storiesOf('Modal', module)
+  .add('With default props', () => (
+    <Modal />
+  ))
   .add('With phrase Matt', () => (
     <Modal phrase="Matt" />
   ))
