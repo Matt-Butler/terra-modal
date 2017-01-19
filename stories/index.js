@@ -1,27 +1,27 @@
 import React from 'react';
 import { storiesOf, action, linkTo } from '@kadira/storybook';
-import Modal from '../src/Modal';
+import StorybookExample from '../src/StorybookExample';
 
 
-storiesOf('Modal Phrase', module)
+storiesOf('StorybookExample Phrase', module)
   .add('With default props', () => (
-    <Modal />
+    <StorybookExample />
   ))
   .add('With phrase Matt', () => (
-    <Modal phrase="Matt" />
+    <StorybookExample phrase="Matt" />
   ))
-  .add('With phrase L5', () => (
-    <Modal phrase="L5" />
+  .add('With phrase the other side', () => (
+    <StorybookExample phrase="the other side" />
   ));
 
 
 storiesOf('Modal Context', module)
   .add('Primary', () => (
-    <Modal className="terra-Modal--primary" />
+    <StorybookExample className="StorybookExample--primary" />
   ))
   .add('Secondary', () => (
-    <Modal className="terra-Modal--secondary" />
+    <StorybookExample className="StorybookExample--secondary" />
   ))
   .add('Positive', () => (
-    <Modal className="terra-Modal--negative" />
+    <StorybookExample className="StorybookExample--negative" />
   ));

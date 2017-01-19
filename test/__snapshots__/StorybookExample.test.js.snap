@@ -1,6 +1,6 @@
 exports[`Storyshots Modal Context Positive 1`] = `
 <h1
-  className="terra-Modal--negative">
+  className="StorybookExample--negative">
   Hello from 
   a Stranger
   !
@@ -9,7 +9,7 @@ exports[`Storyshots Modal Context Positive 1`] = `
 
 exports[`Storyshots Modal Context Primary 1`] = `
 <h1
-  className="terra-Modal--primary">
+  className="StorybookExample--primary">
   Hello from 
   a Stranger
   !
@@ -18,14 +18,14 @@ exports[`Storyshots Modal Context Primary 1`] = `
 
 exports[`Storyshots Modal Context Secondary 1`] = `
 <h1
-  className="terra-Modal--secondary">
+  className="StorybookExample--secondary">
   Hello from 
   a Stranger
   !
 </h1>
 `;
 
-exports[`Storyshots Modal Phrase With default props 1`] = `
+exports[`Storyshots StorybookExample Phrase With default props 1`] = `
 <h1
   className="StorybookExample--primary">
   Hello from 
@@ -34,20 +34,20 @@ exports[`Storyshots Modal Phrase With default props 1`] = `
 </h1>
 `;
 
-exports[`Storyshots Modal Phrase With phrase L5 1`] = `
-<h1
-  className="StorybookExample--primary">
-  Hello from 
-  L5
-  !
-</h1>
-`;
-
-exports[`Storyshots Modal Phrase With phrase Matt 1`] = `
+exports[`Storyshots StorybookExample Phrase With phrase Matt 1`] = `
 <h1
   className="StorybookExample--primary">
   Hello from 
   Matt
+  !
+</h1>
+`;
+
+exports[`Storyshots StorybookExample Phrase With phrase the other side 1`] = `
+<h1
+  className="StorybookExample--primary">
+  Hello from 
+  the other side
   !
 </h1>
 `;

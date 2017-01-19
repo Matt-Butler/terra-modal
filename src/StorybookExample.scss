@@ -1,18 +1,14 @@
-.terra-Modal {
-  border: 5px solid #000;
-}
-
-.terra-Modal--primary {
+.StorybookExample--primary {
   background-color: $terra-primary-color-100;
   color: #fff;
 }
 
-.terra-Modal--secondary {
+.StorybookExample--secondary {
   background-color: $terra-secondary-color-90;
   color: #fff;
 }
 
-.terra-Modal--negative {
+.StorybookExample--negative {
   background-color: $terra-negative-color-90;
   color: #fff;
 }

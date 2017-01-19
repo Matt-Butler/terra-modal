@@ -1,4 +1,4 @@
-#[terra-modal](https://pages.github.cerner.com/MB034780/terra-modal/?selectedKind=Modal%20Phrase&selectedStory=With%20default%20props&full=0&down=1&left=1&panelRight=0&downPanel=kadirahq%2Fstorybook-addon-actions%2Factions-panel)
+#[react-storybook-example](https://matt-butler.github.io/react-storyook-example/)
 
 ## Getting Started
 
@@ -28,6 +28,6 @@ yarn lint
 yarn deploy
 ```
 
-Will update the [static site](https://pages.github.cerner.com/MB034780/terra-modal/?selectedKind=Modal%20Phrase&selectedStory=With%20default%20props&full=0&down=1&left=1&panelRight=0&downPanel=kadirahq%2Fstorybook-addon-actions%2Factions-panel)
+Will update the [static site](https://matt-butler.github.io/react-storyook-example/)
 
 
