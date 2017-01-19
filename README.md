@@ -1,4 +1,4 @@
-#[react-storybook-example](https://matt-butler.github.io/react-storyook-example/)
+#[react-storybook-example](https://matt-butler.github.io/react-storybook-example/)
 
 ## Getting Started
 
@@ -28,6 +28,6 @@ yarn lint
 yarn deploy
 ```
 
-Will update the [static site](https://matt-butler.github.io/react-storyook-example/)
+Will update the [static site](https://matt-butler.github.io/react-storybook-example/)
 
 
