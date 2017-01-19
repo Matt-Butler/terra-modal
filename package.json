@@ -1,10 +1,10 @@
 {
-  "name": "terra-modal",
+  "name": "react-storybook-example",
+  "main": "lib/StorybookExample.js",
   "version": "0.0.1",
-  "repository": "git@github.cerner.com:MB034780/terra-modal.git",
-  "author": "Matt W Butler <matt.w.butler@cerner.com>",
+  "repository": "git@github.com:Matt-Butler/react-storyook-example.git",
+  "author": "Matt Butler <mattwbutler@gmail.com>",
   "license": "MIT",
-  "homepage": "https://pages.github.cerner.com/MB034780/terra-modal/",
   "devDependencies": {
     "@kadira/storybook": "^2.21.0",
     "autoprefixer": "^6.6.1",
