@@ -15,7 +15,7 @@ storiesOf('StorybookExample Phrase', module)
   ));
 
 
-storiesOf('Modal Context', module)
+storiesOf('StorybookExample Context', module)
   .add('Primary', () => (
     <StorybookExample className="StorybookExample--primary" />
   ))
